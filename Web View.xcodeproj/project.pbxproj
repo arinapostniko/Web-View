@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE1C10E729292908007FA296 /* ViewController + TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1C10E629292908007FA296 /* ViewController + TextField.swift */; };
 		FECDB103292181AD00649EA0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECDB102292181AD00649EA0 /* AppDelegate.swift */; };
 		FECDB105292181AD00649EA0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECDB104292181AD00649EA0 /* SceneDelegate.swift */; };
 		FECDB107292181AD00649EA0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FECDB106292181AD00649EA0 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FE1C10E629292908007FA296 /* ViewController + TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController + TextField.swift"; sourceTree = "<group>"; };
 		FECDB0FF292181AD00649EA0 /* Web View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Web View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FECDB102292181AD00649EA0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FECDB104292181AD00649EA0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE1C10E3292919D7007FA296 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FECDB102292181AD00649EA0 /* AppDelegate.swift */,
+				FECDB104292181AD00649EA0 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		FE1C10E4292919E6007FA296 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FECDB106292181AD00649EA0 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FE1C10E5292919F1007FA296 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FECDB108292181AD00649EA0 /* Main.storyboard */,
+				FECDB10D292181AE00649EA0 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FE1C10E82929291C007FA296 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE1C10E629292908007FA296 /* ViewController + TextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		FECDB0F6292181AD00649EA0 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +92,11 @@
 		FECDB101292181AD00649EA0 /* Web View */ = {
 			isa = PBXGroup;
 			children = (
-				FECDB102292181AD00649EA0 /* AppDelegate.swift */,
-				FECDB104292181AD00649EA0 /* SceneDelegate.swift */,
-				FECDB106292181AD00649EA0 /* ViewController.swift */,
-				FECDB108292181AD00649EA0 /* Main.storyboard */,
+				FE1C10E3292919D7007FA296 /* Delegates */,
+				FE1C10E4292919E6007FA296 /* ViewControllers */,
+				FE1C10E82929291C007FA296 /* Extensions */,
+				FE1C10E5292919F1007FA296 /* Storyboard */,
 				FECDB10B292181AE00649EA0 /* Assets.xcassets */,
-				FECDB10D292181AE00649EA0 /* LaunchScreen.storyboard */,
 				FECDB110292181AE00649EA0 /* Info.plist */,
 			);
 			path = "Web View";
@@ -138,6 +173,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1C10E729292908007FA296 /* ViewController + TextField.swift in Sources */,
 				FECDB107292181AD00649EA0 /* ViewController.swift in Sources */,
 				FECDB103292181AD00649EA0 /* AppDelegate.swift in Sources */,
 				FECDB105292181AD00649EA0 /* SceneDelegate.swift in Sources */,
